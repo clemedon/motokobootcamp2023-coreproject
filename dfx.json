@@ -1,0 +1,28 @@
+{
+  "canisters": {
+    "coreproject_backend": {
+      "main": "src/coreproject_backend/main.mo",
+      "type": "motoko"
+    },
+    "coreproject_frontend": {
+      "dependencies": [
+        "coreproject_backend"
+      ],
+      "frontend": {
+        "entrypoint": "src/coreproject_frontend/src/index.html"
+      },
+      "source": [
+        "src/coreproject_frontend/assets",
+        "dist/coreproject_frontend/"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "version": 1
+}
