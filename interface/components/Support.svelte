@@ -7,15 +7,14 @@
     amount: Number(0.01),
   })
 
-  const onPurchase = async () => {
+  const onSupport = async () => {
     const { height } = await transfer()
   }
 </script>
-<div class="example">
+<div class="connected">
   {#if $wallet}
-    <p>Buy me a beer</p>
-    <button class="connect-button" on:click={onPurchase}>Purchase</button>
+    <button class="connect-button" on:click={onSupport}>Contribute</button>
   {:else}
-    <p class="example-disabled">Connect with a wallet to access this example</p>
+    <p class="disconnected">disconnected</p>
   {/if}
 </div>
