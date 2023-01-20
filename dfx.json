@@ -8,8 +8,8 @@
       "main": "src/dao/main.mo",
       "type": "motoko"
     },
-    "mbt": {
-      "main": "src/mbt/main.mo",
+    "ledger": {
+      "main": "src/ledger/main.mo",
       "type": "motoko"
     },
     "assets": {

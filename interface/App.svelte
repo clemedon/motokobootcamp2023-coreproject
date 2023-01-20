@@ -1,5 +1,7 @@
 <script>
-    import logo from "./assets/dfinity.svg"
+    import logo from "./assets/LaughingMan.svg"
+    /* import logo from "./assets/dfinity.svg" */
+
     /*
      * Connect2ic provides essential utilities for IC app development
      */
@@ -39,12 +41,8 @@
 
             <img src={logo} class="App-logo" alt="logo" />
             <p class="slogan">
-                Svelte+TypeScript Template
+                Motoko DAO
             </p>
-            <p class="twitter">by <a href="https://twitter.com/miamaruq">@miamaruq</a></p>
-
-
-
         </header>
 
         <p class="examples-title">
@@ -83,23 +81,24 @@
     }
 
     .App-logo {
-        height: 14vmin;
+        height: 40vmin;
         pointer-events: none;
         transform: scale(1);
-        animation: pulse 3s infinite;
+        animation: pulse 10s infinite;
+        margin-right: -1.6em;
+        margin-bottom: -1.2em;
     }
 
     .App-header {
-        height: calc(100vh - 70px);
+        height: calc(60vh);
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        font-size: calc(10px + 2vmin);
+        font-size: calc(15px + 2vmin);
     }
 
     .examples {
-        padding: 30px 100px;
         display: grid;
         grid-gap: 30px;
         grid-template-columns: 1fr 1fr 1fr;
@@ -112,8 +111,6 @@
     }
 
     .example {
-        padding: 50px 50px;
-        min-height: 300px;
         display: flex;
         flex-direction: column;
         align-items: center;
