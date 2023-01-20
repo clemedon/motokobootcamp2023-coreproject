@@ -1,5 +1,9 @@
 #   Simple DAO
 
+## Description
+
+This simple DAO has the ability to manages the content displayed on a webpage.
+
 ## Usage
 
 Locally deploy with: `bash deploy.sh`

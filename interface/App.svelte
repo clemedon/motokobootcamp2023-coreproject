@@ -41,17 +41,25 @@
 
             <img src={logo} class="App-logo" alt="logo" />
             <p class="slogan">
-                Motoko DAO
+                roadmap<br>&nbsp;&nbsp;DAO<br>
             </p>
         </header>
-
-        <p class="examples-title">
-            Examples
+        <p class="description">
+            guvf qnb vf zrnag gb rynobengr naq znantr n ebnqznc guebhtu n
+            pbafrafhf orgjrra vgf hfref - gubfr hfref pna fhozvg naq ibgr sbe
+            cebcbfnyf gung jvyy pbafgvghgr gur ebnqznc - gubfr hfref pna nyfb
+            ibgr gb hcqngr gur rkvfgvat ebnqznc naq zbqvsl gur cevbevgl beqre,
+            erzbir n gnfx be znex vg nf qbar - urer gur ohvyqvat ebnqznc vf gur
+            bja ebnqznc bs guvf cebwrpg ohg bapr vg vf pbzcyrgrq vg pna or hfrq
+            ol nal bgure cebwrpg gung jvfurf gb qryrtngr vgf ebnqznc gb vgf
+            hfref
         </p>
         <div class="examples">
+
             <Counter />
             <Profile />
             <Transfer />
+
         </div>
     </div>
 </Connect2ICProvider>
@@ -59,9 +67,12 @@
 <style global>
     body {
         margin: 0;
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-            "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-            sans-serif;
+        /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", */
+        /*     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", */
+        /*     sans-serif; */
+        font-family: 'SF Mono', SFMono-Regular, ui-monospace,
+            'DejaVu Sans Mono', Menlo, Consolas, monospace;
+
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
         color: #424242;
@@ -76,17 +87,14 @@
         margin-bottom: 0;
     }
 
-    .twitter {
-        font-size: 0.4em;
-    }
-
     .App-logo {
         height: 40vmin;
         pointer-events: none;
         transform: scale(1);
         animation: pulse 10s infinite;
-        margin-right: -1.6em;
-        margin-bottom: -1.2em;
+        margin-top: 1.5em;
+        margin-right: -1.7em;
+        margin-bottom: -1.5em;
     }
 
     .App-header {
@@ -104,47 +112,50 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
 
-    .examples-title {
+    .description {
         font-size: 1.3em;
-        margin-bottom: 0;
-        text-align: center;
+        text-align: left;
+        margin-top: 2em;
+        padding: 0em 5em;
     }
 
     .example {
+        padding: 2em;
+        margin: 2em;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        /*border: 1px solid black;*/
-        /*background: #f4f4f4;*/
+        /* border: 1px solid black; */
+        /* background: #f3f5f9; */
         border-radius: 15px;
     }
 
-    .example-disabled {
-        font-size: 1.3em;
-        color: #9e9e9e;
-    }
+    /* .example-disabled { */
+    /*     font-size: 1.3em; */
+    /*     color: #9e9e9e; */
+    /* } */
 
-    .demo-button {
-        background: #a02480;
-        padding: 0 1.3em;
-        margin-top: 1em;
-        border-radius: 60px;
-        font-size: 0.7em;
-        height: 35px;
-        outline: 0;
-        border: 0;
-        cursor: pointer;
-        color: white;
-    }
+    /* .demo-button { */
+    /*     background: #a02480; */
+    /*     padding: 0 1.3em; */
+    /*     margin-top: 1em; */
+    /*     border-radius: 60px; */
+    /*     font-size: 0.7em; */
+    /*     height: 35px; */
+    /*     outline: 0; */
+    /*     border: 0; */
+    /*     cursor: pointer; */
+    /*     color: white; */
+    /* } */
 
-    .demo-button:active {
-        color: white;
-        background: #979799;
-    }
+    /* .demo-button:active { */
+    /*     color: white; */
+    /*     background: #979799; */
+    /* } */
 
     .auth-section {
-        padding: 1em;
+        padding: 2em;
         display: flex;
         justify-content: flex-end;
         align-items: center;
